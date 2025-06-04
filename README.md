@@ -1,69 +1,72 @@
-EXPRESS-TEMPLATE
+🚀 EXPRESS-TEMPLATE
 
 Build scalable apps effortlessly with TypeScript and Express
 
-last-commit repo-top-language repo-language-count
-Built with the tools and technologies:
 
-Express JSON Markdown npm .ENV
-Nodemon TypeScript tsnode Zod
 
-Table of Contents
+🔧 Built With
+
+Express
+TypeScript
+ts-node
+Nodemon
+Zod
+dotenv
+npm
+Markdown
+JSON
+📚 Table of Contents
 
 Overview
+Why Express-Template?
 Getting Started
 Prerequisites
 Installation
 Usage
 Testing
-Overview
+License
+🧩 Overview
 
-Express-Template is a powerful starter kit designed for building scalable web applications using TypeScript and Express.
+Express-Template is a powerful starter kit designed for building scalable, modular, and type-safe web applications using TypeScript and Express.
 
-Why Express-Template?
+💡 Why Express-Template?
 
-This project streamlines the development process, ensuring robust and maintainable applications. The core features include:
+This template is built to streamline development and enforce best practices out of the box:
 
-🚀 TypeScript Support: Ensures type safety and modern JavaScript standards, reducing runtime errors.
-📦 Modular Architecture: Promotes maintainability and scalability through organized routing and middleware.
-✅ Robust Validation: Uses Zod for schema validation, enhancing data integrity and user experience.
-⚠️ Error Handling: Custom error classes and middleware provide consistent error management and debugging.
-📊 Logging Mechanism: Structured logging with Winston enhances traceability and observability.
-🔗 Correlation ID Management: Facilitates tracking of requests across asynchronous operations for easier debugging.
-Getting Started
+✅ TypeScript Support: Type-safe coding with improved autocompletion and reduced runtime bugs.
+🧱 Modular Architecture: Encourages organized code with separate layers for routes, services, middlewares, and utilities.
+🔐 Validation with Zod: Declarative schema validation to ensure clean and consistent input.
+🧠 Centralized Error Handling: Custom error classes and middleware for consistent debugging.
+🧾 Winston Logging: Structured logging for better observability and traceability.
+🔗 Correlation ID Middleware: Tracks request lifecycle across async operations.
+⚙️ Getting Started
 
-Prerequisites
+📦 Prerequisites
+Make sure you have:
 
-This project requires the following dependencies:
-
-Programming Language: TypeScript
-Package Manager: Npm
-Installation
-
-Build Express-Template from the source and intsall dependencies:
-
-Clone the repository:
-
-❯ git clone https://github.com/Vineeth-28/Express-Template
-Navigate to the project directory:
-
-❯ cd Express-Template
-Install the dependencies:
-
-Using npm:
-
-❯ npm install
-Usage
-
-Run the project with:
-
-Using npm:
+Node.js >= 18.x
+npm >= 9.x
+Git
+🛠️ Installation
+Clone the repository
+git clone https://github.com/Vineeth-28/Express-Template
+Navigate to the project directory
+cd Express-Template
+Install dependencies
+npm install
+🚀 Usage
+Start the development server:
 
 npm start
-Testing
+Or with nodemon for hot-reloading:
 
-Express-template uses the {test_framework} test framework. Run the test suite with:
+npm run dev
+🧪 Testing
 
-Using npm:
+Note: Replace {test_framework} with the actual testing framework you're using (e.g., Jest, Mocha, Vitest).
+Run the test suite:
 
 npm test
+📄 License
+
+This project is licensed under the MIT License.
