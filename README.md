@@ -1,72 +1,119 @@
-🚀 EXPRESS-TEMPLATE
+<div id="top">
 
-Build scalable apps effortlessly with TypeScript and Express
+<!-- HEADER STYLE: CLASSIC -->
+<div align="center">
 
 
+# EXPRESS-TEMPLATE
 
-🔧 Built With
+<em>Build scalable web apps with confidence and ease.</em>
 
-Express
-TypeScript
-ts-node
-Nodemon
-Zod
-dotenv
-npm
-Markdown
-JSON
-📚 Table of Contents
+<!-- BADGES -->
+<img src="https://img.shields.io/github/last-commit/Vineeth-28/Express-Template?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+<img src="https://img.shields.io/github/languages/top/Vineeth-28/Express-Template?style=flat&color=0080ff" alt="repo-top-language">
+<img src="https://img.shields.io/github/languages/count/Vineeth-28/Express-Template?style=flat&color=0080ff" alt="repo-language-count">
 
-Overview
-Why Express-Template?
-Getting Started
-Prerequisites
-Installation
-Usage
-Testing
-License
-🧩 Overview
+<em>Built with the tools and technologies:</em>
 
-Express-Template is a powerful starter kit designed for building scalable, modular, and type-safe web applications using TypeScript and Express.
+<img src="https://img.shields.io/badge/Express-000000.svg?style=flat&logo=Express&logoColor=white" alt="Express">
+<img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON">
+<img src="https://img.shields.io/badge/Markdown-000000.svg?style=flat&logo=Markdown&logoColor=white" alt="Markdown">
+<img src="https://img.shields.io/badge/npm-CB3837.svg?style=flat&logo=npm&logoColor=white" alt="npm">
+<img src="https://img.shields.io/badge/.ENV-ECD53F.svg?style=flat&logo=dotenv&logoColor=black" alt=".ENV">
+<br>
+<img src="https://img.shields.io/badge/Nodemon-76D04B.svg?style=flat&logo=Nodemon&logoColor=white" alt="Nodemon">
+<img src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=flat&logo=TypeScript&logoColor=white" alt="TypeScript">
+<img src="https://img.shields.io/badge/tsnode-3178C6.svg?style=flat&logo=ts-node&logoColor=white" alt="tsnode">
+<img src="https://img.shields.io/badge/Zod-3E67B1.svg?style=flat&logo=Zod&logoColor=white" alt="Zod">
 
-💡 Why Express-Template?
+</div>
+<br>
 
-This template is built to streamline development and enforce best practices out of the box:
+---
 
-✅ TypeScript Support: Type-safe coding with improved autocompletion and reduced runtime bugs.
-🧱 Modular Architecture: Encourages organized code with separate layers for routes, services, middlewares, and utilities.
-🔐 Validation with Zod: Declarative schema validation to ensure clean and consistent input.
-🧠 Centralized Error Handling: Custom error classes and middleware for consistent debugging.
-🧾 Winston Logging: Structured logging for better observability and traceability.
-🔗 Correlation ID Middleware: Tracks request lifecycle across async operations.
-⚙️ Getting Started
+## Table of Contents
 
-📦 Prerequisites
-Make sure you have:
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [Testing](#testing)
 
-Node.js >= 18.x
-npm >= 9.x
-Git
-🛠️ Installation
-Clone the repository
-git clone https://github.com/Vineeth-28/Express-Template
-Navigate to the project directory
-cd Express-Template
-Install dependencies
-npm install
-🚀 Usage
-Start the development server:
+---
 
+## Overview
+
+Express-Template is a powerful starter kit designed for building scalable web applications using TypeScript and Express. This project emphasizes best practices, providing a robust foundation for modern web development.
+
+**Why Express-Template?**
+
+This project streamlines server-side application development while ensuring reliability and maintainability. The core features include:
+
+- 🚀 **Type Safety:** Ensures robust code quality through TypeScript integration.
+- 🛠️ **Modular Architecture:** Facilitates easy expansion and maintenance of the application.
+- 📦 **Centralized Error Handling:** Improves user experience by providing structured error responses.
+- ✅ **Validation Middleware:** Ensures data integrity by validating incoming requests.
+- 📊 **Structured Logging:** Enhances observability and debugging capabilities.
+- 🔗 **Correlation ID Management:** Improves request tracking across asynchronous operations.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+This project requires the following dependencies:
+
+- **Programming Language:** TypeScript
+- **Package Manager:** Npm
+
+### Installation
+
+Build Express-Template from the source and intsall dependencies:
+
+1. **Clone the repository:**
+
+    ```sh
+    ❯ git clone https://github.com/Vineeth-28/Express-Template
+    ```
+
+2. **Navigate to the project directory:**
+
+    ```sh
+    ❯ cd Express-Template
+    ```
+
+3. **Install the dependencies:**
+
+**Using [npm](https://www.npmjs.com/):**
+
+```sh
+❯ npm install
+```
+
+### Usage
+
+Run the project with:
+
+**Using [npm](https://www.npmjs.com/):**
+
+```sh
 npm start
-Or with nodemon for hot-reloading:
+```
 
-npm run dev
-🧪 Testing
+### Testing
 
-Note: Replace {test_framework} with the actual testing framework you're using (e.g., Jest, Mocha, Vitest).
-Run the test suite:
+Express-template uses the {__test_framework__} test framework. Run the test suite with:
 
+**Using [npm](https://www.npmjs.com/):**
+
+```sh
 npm test
-📄 License
+```
 
-This project is licensed under the MIT License.
+---
+
+<div align="left"><a href="#top">⬆ Return</a></div>
+
+---
